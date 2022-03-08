@@ -1,0 +1,868 @@
+/*****Header*****/
+#header_home{
+    top:0;
+    left: 0;
+    display:block;
+    max-width:100%;
+    margin:0 auto;  
+    z-index: 4;
+}
+.header_pages{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+
+}
+#header_logo{
+    width:200px; 
+    padding-top:  20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+nav {
+    list-style: none;
+    float:right;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+input#control-nav {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+#menu_main{
+    font-size: 18px;
+    font-family: "Futura Std Medium", "Trebuchet MS", Arial, sans-serif;
+    display: inline-flex;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position:relative;
+}    
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 0px 16px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 gray;
+}
+
+a:active{
+    color: gray;
+}
+
+/*****Body*****/
+#wrapper{
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#body_home{
+    background-image: url("../images/Madonna_as_Madame_X_in_Crave_Home.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.body_pages{
+    background-color: white;
+}
+h1{
+    color:black;
+    font-size: 35px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    font-family: "Futura Std Medium", "Trebuchet MS", Arial, sans-serif;
+}
+/*****Main Bio*****/
+#bio_text{
+    width: 40%;
+    padding: 0px 35px 80px 150px;
+}
+#image_bio1{
+    display: contents;
+}
+figcaption{
+    visibility: collapse;
+}
+#bio_text h1 {
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+p{
+    line-height: 8mm;
+    text-align: justify;
+    font-size: 16px;
+    font-family: "Futura Std Medium", "Trebuchet MS", Arial, sans-serif;
+}
+#wikipedia_link{
+    text-decoration: none;
+    color: blue;
+}
+#video_bio{
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
+
+#image_bio{ 
+    float: right;
+    width: 30%;
+    position:absolute;
+            top: 150px;
+            right: 150px;
+    z-index: -1;
+}
+/*****Main About*****/
+#main_about{
+    text-align: center;
+    padding-top: 100px;
+}
+#main_about h1{
+    padding-bottom: 30px;
+}
+#main_about p{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: justify;
+    letter-spacing: 0.2px; 
+}
+#profile_picture{
+    width: 08%;
+    border-radius: 10px;  
+}
+/*****Main Music*****/
+
+#music_sec1{
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#title_music1 {
+    padding-bottom: 2rem;
+}
+
+#youtube_music_evolution{
+    width: 60%;
+    height: 450px;
+}
+
+#title_music2{
+    text-align: center;
+    padding: 2.5rem 0 1rem 0;
+}
+
+#section_timeline{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 60%;
+    
+    /* margin-left: 20%; */
+}
+.timeline_left{
+    float: left;
+    clear: left;
+    
+}
+.timeline_right{
+    float: right;
+    margin-right: 15px;
+    clear: right;
+    
+}
+.album_image{
+    width: 300px;
+}
+
+#madamex_image{
+    padding-bottom: 100px;
+}
+
+h3 {
+    font-family: "Futura Std Medium", "Trebuchet MS", Arial, sans-serif;
+    font-size: 15px;
+    
+}
+
+.timeline_left:hover img, .timeline_right:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+#mainimage_madamex{
+   width: 60%;
+   padding-top: 60px;
+}
+#madamex_logo{
+   width: 50%;
+}
+
+#madonna_xf {
+   background-color:black; 
+   text-align: center;
+}
+
+#madame_xf {
+    text-align: center;
+}
+
+#title_mx {
+   padding: 1.5rem; 
+   text-align: center;
+}
+
+#text_1 {
+    width: 50%;
+    float: left;
+   padding: 0 4rem 0 2rem;
+    clear: left;
+}
+#madame_img2 {
+    width: 33%;
+    
+}
+
+h1 #madamex_main {
+    float: right;
+    padding-bottom: 100px;
+}
+
+
+#madamex_quote{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    margin-left: 30px;
+    padding: 2rem 6rem 2rem 4rem;
+    
+        
+}
+#title2_mx{
+    clear: both;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
+#interv_mx{
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.videos_mx {
+    min-width: 40%;
+    height: 300px;
+    padding: 0px 1rem 0px 1rem;
+    
+}
+
+/*****Main Ray of Light*****/
+#rayoflight_sec1{
+    text-align: center;
+}
+
+h2 {
+    font-family: "Futura Std Medium", "Trebuchet MS", Arial, sans-serif;
+    padding: 0 5%;
+}
+
+#text_foundation{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+#art_1{
+    clear: both;
+}
+
+#text_maskdonation{
+    line-height: 2.5rem;
+    margin-top: 20px;
+}
+
+#article_image{
+    width: 60%;
+    float: left;
+    padding: 2.5%;
+}
+
+#text_maskdonation{
+    padding-top: 10%;
+    padding-right: 2.5%;
+    line-height: 3rem;
+    
+}
+
+#quote_image{
+    width: 60%;
+    float: right;
+    padding: 2.5%;
+    padding-bottom: 7.5%;
+}
+
+#madonna_quote{
+    width: 30%;
+    float: left;
+    padding-left: 2.5%;
+    padding-top: 4%;
+    font-size: 25px;
+    line-height: 15mm;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/*****Footer*****/
+/*****Footer logo*****/
+footer{
+    position:fixed;
+    width: 100%; 
+    bottom: 0;
+   
+}
+
+.footer_pages{
+    background-color: black;
+}
+
+#footer_logo{
+    padding-top: 25px;
+    padding-left: 30px;
+    margin-top: -10px;
+    width: 90px;
+}
+/*****Footer Social Media*****/
+.icons{
+    float:right;
+    width: 20px;
+    padding: 3px; 
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+/*-----------News------------*/
+.a_news{
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    text-decoration: none;
+    color: #fff;
+}
+.img_news{
+   width: 100%;
+   transition: all .5s;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   -ms-transition: all .5s;
+   -o-transition: all .5s;   
+}
+#section_news{
+    padding: 100px 0;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#main_news{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:12px;
+  margin: 30px 15px opx 15px;  
+}
+
+#header_news{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+#header_news h1{
+    margin: 0;
+    font-size: 50px;
+    color: rgba(45, 52, 54,1.0);
+    font-weight: 500;
+    padding-bottom: 2%;
+    
+}
+h4 {
+    font-family: "Futura Std Medium", "Trebuchet MS", Arial, sans-serif;
+}
+#text_news{
+    padding-bottom: 2%;
+}
+
+.singleBlog{
+   position: relative;
+   overflow: hidden;
+   max-height: 580px;
+   height: 100%;
+   box-sizing: border-box;
+   box-shadow: 0 2px 10px #ccc;
+   transition: all .5s;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   -ms-transition: all .5s;
+   -o-transition: all .5s;
+}
+
+.singleBlog:hover{
+    box-shadow: 0px 2px 13px #ccc;
+}
+
+.singleBlog:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+.blogContent{
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    color: #fff;
+    padding: 10px 5px;
+    background: linear-gradient(to bottom, rgba(10,77,153,1) 0%,
+    rgba(32,124,202,1) 0%,rgba(5,1,0,1) 0%,rgba(247,242,243,.4) 100%); 
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    transition:  all .5s;
+}
+
+.singleBlog:hover .blogContent{
+    bottom: 0;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.blogContent h3 {
+    font-size: 18px;
+    font-weight: 500;
+    
+
+}
+
+.blogContent h3 span{
+    display: block;
+    font-size: 70%;
+    margin-top: 5px;
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.blogContent a {
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.blogContent .btn{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-weight: 400;
+}
+
+.blogContent .btn:hover{
+    background: #000;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    text-decoration: none;
+}
+
+.blogContent a:hover{
+    text-decoration: underline;
+}
+
+/*****Media Screen*************************************************MEDIA QUERIES*******/
+/* Media queries */
+
+
+@media (max-width: 500px) {
+
+/*---------------------------------------------Discography*/    
+    #section_timeline{
+        max-width: 90%;
+        
+    }
+    .timeline {
+        display: inline-block;
+    }
+    .timeline_left{
+        margin-left: 15px;
+    }
+/*----------------------------------------------------News*/
+    #header_news{
+        max-width: 90%;
+    }
+    /* #main_news {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    } --------This displays the block of images side by 
+    side smaller*/
+    #main_news{
+        display: inline-block;
+        width: 90%;
+    }/*-------This displays the block of images one under a
+    nother bigger*/
+
+    .blogContent{
+        padding-bottom: 30px;
+    }
+
+    .singleBlog{
+        padding-bottom: 20px;
+    }
+    .blogContent h3 {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0px 10px;
+        
+    }
+    h4 > a {
+        display: none;
+    }
+    .a_author {
+        display: none;
+    }
+/*----------------------------------------------------MadameX*/
+#mainimage_madamex{
+    width: 70%;
+    padding-top: 80px;
+    /*background-color: black;*/
+ }
+ #madamex_logo{
+    width: 90%;
+ }
+ 
+ 
+#title_mx {
+    padding: 20px; 
+    
+ }
+ 
+ #text_1 {
+    padding: 0 20px;
+    width: 90%;
+    
+ }
+
+
+
+ #madame_img2 {
+     width: 100%;
+     
+ } 
+ 
+ h1 #madamex_main {
+     float: none;
+
+ }
+ 
+ #madamex_quote{
+     font-size: 18px;
+     line-height: 18px;
+     font-weight: bolder;
+     font-style: italic;
+     text-align: center;
+     margin-left: 0px;
+     padding: 20px 30px;
+     
+         
+ }
+ #title2_mx{
+     padding: 20px;
+     padding-bottom: 20px;
+
+ }
+ 
+ 
+ .videos_mx {
+     min-width: 40%;
+     height: 300px;
+     padding: 0%;
+     
+ }
+/*----------------------------------------------------RayOfLightX*/
+ #ray_main{
+     text-align: center;
+ }
+
+ #article_image{
+    width: 90%;
+    float: none;
+    clear: both;
+}
+#text_foundation{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+#art_1{
+    width: 90%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+#quote_sec{
+    padding-bottom: 80px;
+    padding-left: 20px;
+}
+#text_maskdonation{
+    line-height: 1.6rem;
+    margin-top: 10px;
+}
+
+#quote_image{
+    width: 90%;
+    float: none;
+    padding: 0%;
+    padding-bottom: 7.5%;
+    padding-right: 20px;
+}
+#madonna_quote{
+    width: 80%;
+    float: none;
+    padding-left: 20px;
+    padding-top: 0%;
+    font-size: 20px;
+    line-height: 10mm;
+}
+/*----------------------------------------------------ABOUTME*/
+#main_about{
+    padding-bottom: 80px;
+}
+
+#profile_picture{
+    width: 80%;
+}
+
+}
+@media (max-width: 770px){
+    #body_home{
+        background-image: url("../images/Madonna_as_Madame_X_in_Crave_Home_Small.png");
+    }
+    #main_news {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+
+    #header_news {
+        width: 95%;
+    }
+    .blogContent {
+        bottom: 0;
+    }
+
+}
+@media (max-width: 709px){
+
+}
+
+@media screen and (max-width: 893px)  {
+   /*****Header Responsive Menu*****/
+   
+    header .control-nav {
+        
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: block;
+        width: 30px;
+        padding: 5px 0;
+        border: solid white;
+        border-width: 3px 0;
+        z-index: 1000;
+        cursor: pointer;
+    }
+    
+    header .control-nav:before {
+        content: "";
+        display: block;
+        height: 3px;
+        background: white;
+
+    }
+    
+    header .control-nav-close {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        z-index: 1;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+    
+    header nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 150px;
+        border-left: 3px solid white;
+        background-color: rgba(29, 28, 28, 0.6);
+        overflow-x: auto;
+        z-index: 2;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+        -webkit-transform: translate(100%, 0);
+        -ms-transform: translate(100%, 0);
+        transform: translate(100%, 0);
+    }
+
+    #menu_main{
+        display: list-item;
+        margin-top: 55px;  
+        padding-left: 30px;
+    } 
+
+    li a{
+        padding: 10px;
+    }
+
+    #control-nav:checked ~ .control-nav-close {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+      
+    #control-nav:checked ~ nav {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    
+    #header_logo{
+        width: 150px;
+    }
+    /*****Body*****/
+
+    #figcap_img_home{
+        font-size: 4px;
+        padding-top: 650px;
+        
+    }
+    /*****Main*****/
+
+    /*****Main Bio*****/
+
+    /*****Footer*****/
+    footer{
+        background-color: rgba(29, 28, 28, 0.4);
+    }
+    #footer_logo{
+        padding-left: 25px;
+        width: 80px;
+    }
+    /*****Footer Social Media*****/
+    .icons{ 
+        padding-bottom: -12px; 
+    }
+    #youtubeicon{
+        margin-right: -12px;
+    }
+
+    #section_timeline{
+        align-items: center;
+        max-width: 80%;
+
+    }
+    .timeline_left{
+        float: none;
+        
+    }
+    .timeline_right{
+        float: none;
+            
+    }
+    .album_image{
+        width: 250px;
+        
+    }
+
+  }
+
+  @media (max-width: 1090px){
+    #bio_text{
+        width: 90%;
+        padding-left: 20px;
+    }
+    #image_bio1{
+       display: inline;
+       width: 100%;
+    }
+
+    #image_bio{ 
+     display: none;    
+    }
+    #youtube_music_evolution{
+        width: 80%;
+        height: 450px;
+    }
+    #section_timeline{
+        max-width: 80%;
+
+    }
+    .timeline_left{
+        float: left;
+        clear: left;
+    }
+    .timeline_right{
+        float: right;
+        clear: right;
+        
+    }
+  }
+
+  
+  
+
+
